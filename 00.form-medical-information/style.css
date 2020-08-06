@@ -8,160 +8,35 @@ hr{
     border-top: 1px dotted #f1f1f1;
 }
 .ch1 {
-    float: left;
+   display: table-cell;
+    text-align: left;
+
 }
 .ch2 {
-    float: left;
-    margin-left: 50px;
+    display: table-cell;
+    text-align: left;
 }
-.wrap1 {
-    overflow: hidden;
+.wrap{
+    display:table-row;
 }
-.ch3 {
-    float: left;
+.table{
+    display: table;
+    table-layout: fixed;
+    overflow-x: auto;
+    width: 100%;
 }
-.ch4 {
-    float: left;
-    margin-left: 50%;
-}
-.wrap2 {
-    overflow: hidden;
-}
-.ch5 {
-    float: left;
-}
-.ch5s{
-    width: 250px;
-}
-.ch6 {
-    float: left;
-    margin-left: 50px;
-}
-.wrap3 .ch6s[type=text] {
-    width: 30px;
-}
-.callendarimg{  /* callendar image */
-    float: left;
-    margin-left: 5px;
+.img {
     height: 40px;
     width: 40px;
 }
-.ch6l{  /* month day year */
-    margin-left: 50%;
+.daymonth{
+    width: 20px;
+    height: 30px;
 }
-.wrap3 {
-    overflow: scroll;
+.year{
+    width: 40px;
+    height: 30px;
 }
-.ch7 {
-    float: left;
-}
-.ch8 {
-    float: left;
-    margin-left: 50%;
-}
-.wrap4 {
-    overflow: hidden;
-}
-.ch9 {
-    float: left;
-}
-.wrap5 .ch9s[type=text] {
-    width: 50px;
-}
-.wrap5 .ch9s2[type=text] {
-    width: 100px;
-}
-.ch10 {
-    float: left;
-    margin-left: 25%;
-}
-.wrap5 {
-    overflow: hidden;
-}
-.fo2{
-    margin-left: 25%;
-}
-.ch11 {
-    float: left;
-}
-.ch12 {
-    float: left;
-    margin-left: 50%;
-}
-.wrapx {
-    overflow: hidden;
-}
-.ch13 {
-    float: left;
-}
-.ch14 {
-    float: left;
-    margin-left: 50px;
-}
-.ch14s{
-    width: 250px;
-    margin-left: 10%;
-}
-.wrapx2 {
-    overflow: hidden;
-}
-.ch15 {
-    float: left;
-}
-.ch16 {
-    float: left;
-    margin-left: 50%;
-}
-.wrapx3 {
-    overflow: hidden;
-}
-.ch17 {
-    float: left;
-}
-.ch18 {
-    float: left;
-    margin-left: 50%;
-}
-.wrapx4 {
-    overflow: hidden;
-}
-.ch19 {
-    float: left;
-}
-.ch20 {
-    float: left;
-    margin-left: 50px;
-}
-.wrapx5 {
-    overflow: hidden;
-}
-.ch21 {
-    float: left;
-}
-.ch22 {
-    float: left;
-    margin-left: 50px;
-}
-.wrapx6 {
-    overflow: hidden;
-}
-.ch23 {
-    float: left;
-}
-.ch24 {
-    float: left;
-    margin-left: 50px;
-}
-.wrapx7 {
-    overflow: hidden;
-}
-.ch25 {
-    float: left;
-}
-.ch26 {
-    float: left;
-    margin-left: 50px;
-}
-.wrapx8 {
-    overflow: hidden;
+.full_half{
+    width: 80%;
 }

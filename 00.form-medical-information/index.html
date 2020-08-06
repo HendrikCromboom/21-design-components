@@ -6,46 +6,243 @@
     <meta charset="utf-8">
 </head>
 <body>
-<div><h2>Emergency Contact and Medical Information</h2></div>
-<hr>
-<div>Name</div>
-<form><input type="text"><input type="text"></form>
-<div class="wrap1"><div class="ch1">First</div><div class="ch2">Last</div></div>
-<div class="wrap2"><div class="ch3">Gender</div> <div class="ch4">Date of Birth</div></div>
-<div class="wrap3"><form class="ch5"><select class="ch5s"><option value="male">Male</option></select></form><form class="ch6"><input class="ch6s" type="text">/<input class="ch6s" type="text">/<input class="ch6s" type="text"></form><div><img class="callendarimg" src="callendar.png"></div></div>
-<div class="ch6l">MM/DD/YY</div>
-<hr>
-<div>Emergency Contact</div>
-<br>
-<div class="wrap4"><div class="ch7">Name</div><div class="ch8">Relationship</div></div>
-<div class="wrap5"><form class="ch9"><input class="ch9s" type="text"><input class="ch9s2" type="text"></form><form class="ch10"><input type="text"></form></div>
-<div>First Last</div>
-<br>
-<div>Adress</div>
-<form><input type="text"></form>
-<div>Street Adress</div>
-<form><input type="text"></form>
-<div>Adress Line 2</div>
-<form><input class="fo1" type="text"><input class="fo2" type="text"></form>
-<div class="wrapx"><div class="ch11">City</div> <div class="ch12">State/Province/Region</div></div>
-<br>
-<div class="wrapx2"><form class="ch13"><input type="text"></form><form class="ch14"><select class="ch14s"><option value="null"> </option></select></form></div>
-<div class="wrapx3"><div class="ch15">Postal/Zip Code</div><div class="ch16">Country</div></div>
-<br>
-<div class="wrapx4"><div class="ch17">Home Phone</div><div class="ch18">Work Phone</div></div>
-<div class="wrapx5"><<form class="ch19"><input type="text">-<input type="text">-<input type="text"></form><form class="ch20"><input type="text">-<input type="text">-<input type="text"></form></div>
-<div class="wrapx6"><div class="ch21">###</div><div class="ch22">###</div></div>
-<hr>
-<div>Medical Information</div>
-<div>Hospital/Clinic Preference</div>
-<form><input type="text"></form>
-<div class="wrapx7"><div class="ch23">Insurance Company</div><div class="24">Policy Number</div></div>
-<form><input type="text"><input type="text"></form>
-<div class="wrapx8"><div class="ch25">Physicians Name</div><div class="ch26">Phone Number</div></div>
-<div class="wrapx9"><form><input type="text"></form><form><input type="text">-<input type="text">-<input type="text"></form></div>
-                        <div>###</div>
-<div>Allergies/Special Health Considerations</div>
-<form class="big"><input type="text"></form>
-<button>Submit</button>
+<form>
+    <div class="table">
+        <div class="wrap">
+            <div class="ch1">
+                <h3>Emergency Contact and Medical Information</h3>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                Name
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                <input type="text"><input type="text">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                First
+            </div>
+            <div class="ch2">
+                Last
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                Gender
+            </div>
+            <div class="ch2">
+                Date of Birth
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                <select class="full_half">
+                    <option value="male">
+                        Male
+                    </option>
+                </select>
+            </div>
+            <div class="ch2">
+                    <input class="daymonth" type="text">
+                    /
+                    <input class="daymonth" type="text">
+                    /
+                    <input class="year" type="text">
+                <img class="img" src="callendar.png">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+            -
+            </div>
+            <div class="ch2">
+                MM/DD/YY
+            </div>
+        </div>
+        <hr>
+        <div class="wrap">
+            <div class="h1">
+                Emergency Contact
+            </div>
+        </div>
+        <br>
+        <div class="wrap">
+            <div class="ch1">
+                Name
+            </div>
+            <div class="ch2">
+                Relationship
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                <input class="full_half" type="text">
+            </div>
+            <div class="ch2">
+            <input type="text">
+            <input type="text">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                First Last
+            </div>
+        </div>
+        <br>
+        <div class="wrap">
+            <div class="ch1">
+                Adress
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                <input class="full_half" type="text">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                Street Adress
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                <input type="text">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                Adress Line 2
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                <input type="text"><input type="text">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                City
+            </div>
+            <div class="ch2">
+                State/Province/Region
+            </div>
+        </div>
+        <br>
+        <div class="wrap">
+            <div class="ch1">
+                <input type="text">
+            </div>
+
+            <div class="ch2">
+                <select><option value="null"></option></select>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                Postal/Zip Code
+            </div>
+            <div class="ch2">
+                Country
+            </div>
+        </div>
+        <br>
+        <div class="wrap">
+            <div class="ch1">
+                Home Phone
+            </div>
+            <div class="ch2">
+                Work Phone
+            </div>
+        </div>
+        <div class="wrap21">
+            <div class="ch1">
+                <input type="text">-<input type="text">-<input type="text">
+            </div>
+            <div class="ch2">
+                <input type="text">-<input type="text">-<input type="text">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                ###
+            </div>
+            <div class="ch2">
+                ###
+            </div>
+        </div>
+        <hr>
+        <div class="wrap">
+            <div class="ch1">
+                Medical Information
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                Hospital/Clinic Preference
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                <input type="text">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                Insurance Company
+            </div>
+            <div class="2">
+                Policy Number
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                <input type="text">
+            <div class="ch2">
+                <input type="text">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                Physicians Name
+            </div>
+            <div class="ch2">
+                Phone Number
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                <input type="text">
+            </div>
+            <div class="ch2">
+                <input type="text">-<input type="text">-<input type="text">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                ###
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                Allergies/Special Health Considerations
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                <input type="text">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="ch1">
+                <button>Submit</button>
+            </div>
+        </div>
+    </div>
+</form>
 </body>
 </html>
