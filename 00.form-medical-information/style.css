@@ -1,0 +1,154 @@
+body {
+    background-color: #ffffff;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+hr{
+    border-top: 1px dotted #f1f1f1;
+}
+.ch1 {
+    float: left;
+}
+.ch2 {
+    float: left;
+    margin-left: 50px;
+}
+.wrap1 {
+    overflow: hidden;
+}
+.ch3 {
+    float: left;
+}
+.ch4 {
+    float: left;
+    margin-left: 50px;
+}
+.wrap2 {
+    overflow: hidden;
+}
+.ch5 {
+    float: left;
+}
+.ch5s{
+    width: 250px;
+}
+.ch6 {
+    float: left;
+    margin-left: 50px;
+}
+.ch6s[type=text] {
+    width: 30px;
+}
+.callendarimg{  /* callendar image */
+    float: left;
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+}
+.ch6l{  /* month day year */
+    margin-left: 50%;
+}
+.wrap3 {
+    overflow: scroll;
+}
+.ch7 {
+    float: left;
+}
+.ch8 {
+    float: left;
+    margin-left: 50px;
+}
+.wrap4 {
+    overflow: hidden;
+}
+.ch9 {
+    float: left;
+}
+.ch10 {
+    float: left;
+    margin-left: 50px;
+}
+.wrap5 {
+    overflow: hidden;
+}
+.ch11 {
+    float: left;
+}
+.ch12 {
+    float: left;
+    margin-left: 50px;
+}
+.wrapx {
+    overflow: hidden;
+}
+.ch13 {
+    float: left;
+}
+.ch14 {
+    float: left;
+    margin-left: 50px;
+}
+.wrapx2 {
+    overflow: hidden;
+}
+.ch15 {
+    float: left;
+}
+.ch16 {
+    float: left;
+    margin-left: 50px;
+}
+.wrapx3 {
+    overflow: hidden;
+}
+.ch17 {
+    float: left;
+}
+.ch18 {
+    float: left;
+    margin-left: 50px;
+}
+.wrapx4 {
+    overflow: hidden;
+}
+.ch19 {
+    float: left;
+}
+.ch20 {
+    float: left;
+    margin-left: 50px;
+}
+.wrapx5 {
+    overflow: hidden;
+}
+.ch21 {
+    float: left;
+}
+.ch22 {
+    float: left;
+    margin-left: 50px;
+}
+.wrapx6 {
+    overflow: hidden;
+}
+.ch23 {
+    float: left;
+}
+.ch24 {
+    float: left;
+    margin-left: 50px;
+}
+.wrapx7 {
+    overflow: hidden;
+}
+.ch25 {
+    float: left;
+}
+.ch26 {
+    float: left;
+    margin-left: 50px;
+}
+.wrapx8 {
+    overflow: hidden;
+}
