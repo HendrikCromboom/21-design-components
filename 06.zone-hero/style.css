@@ -14,6 +14,7 @@ body {
 .header{
     grid-column: 2;
     grid-row: 2;
+    font-size: 40px;
 }
 .text{
     grid-column: 2;
