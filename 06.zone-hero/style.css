@@ -1,3 +1,12 @@
 body {
     background-color: white;
+    width: 1198px;
+    height: 776px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 143px 386px 120px 567px;
+    grid-template-rows: 118px 100px 100px 100px 361px;
+    gap: 1px 1px;
+    grid-template-areas: ". . . ." ". . . ." ". . . ." ". . . ." ". . . .";
 }
