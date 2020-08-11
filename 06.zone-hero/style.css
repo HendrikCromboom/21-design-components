@@ -9,4 +9,31 @@ body {
     grid-template-rows: 118px 100px 100px 100px 361px;
     gap: 1px 1px;
     grid-template-areas: ". . . ." ". . . ." ". . . ." ". . . ." ". . . .";
+    border: 5px black;
+}
+.header{
+    grid-column: 2;
+    grid-row: 2;
+}
+.text{
+    grid-column: 2;
+    grid-row: 3;
+}
+.button{
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+}
+.rectangle {
+    height: 64px;
+    width: 215px;
+    background-color: #e5b840;
+}
+.text3{
+    padding-top: 20px;
+}
+
+.img{
+    grid-column: 4;
+    grid-row: 1/6;
 }
