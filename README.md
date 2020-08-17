@@ -5,10 +5,7 @@ A BeCode bonus project to combine newly learned principles about HTML, CSS and d
 ---
 
 #### Link:
-* 00:[Form Medical Information](../00.form-medical-information/index.html)
-* 01:[Footer Social](../01.footer-social/index.html)
-* 02:[Pagination](../02.pagination/index.html)
-* 06:[ZoneHero](../06.zone-hero/index.html)
+https://hendrikcromboom.github.io/21-design-components/
 
 ---
 
