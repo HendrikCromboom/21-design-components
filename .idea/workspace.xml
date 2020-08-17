@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d0d9407-3fae-4e3c-811d-1e428b39aab7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="4fda8890-2c3d-47c3-9ee3-57f45beb6e1e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +11,16 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1floZpW4ykIMAJQ8NoNrrnDx3XX" />
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/HendrikCromboom/21-design-components" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fiQ0gXf6ZaENTQyh32yxsuYrD7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,12 +40,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2d0d9407-3fae-4e3c-811d-1e428b39aab7" name="Default Changelist" comment="" />
-      <created>1596802100841</created>
+      <changelist id="4fda8890-2c3d-47c3-9ee3-57f45beb6e1e" name="Default Changelist" comment="" />
+      <created>1596698214045</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596802100841</updated>
-      <workItem from="1596802103548" duration="1414000" />
+      <updated>1596698214045</updated>
+      <workItem from="1596698218885" duration="24784000" />
     </task>
     <servers />
   </component>
